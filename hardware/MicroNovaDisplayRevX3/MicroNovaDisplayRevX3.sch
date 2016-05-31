@@ -5254,7 +5254,7 @@ LETTER landscape</description>
 <sheets>
 <sheet>
 <plain>
-<text x="210.566" y="35.052" size="1.27" layer="91" font="fixed" ratio="10">
+<text x="213.106" y="27.432" size="1.27" layer="91" font="fixed" ratio="10">
 ANOG1 : LEFT-MOST DIGIT ANODE
 ANOG2 :
 ANOG3 :
@@ -5289,10 +5289,17 @@ P45   : DIGIT SEGMENTS
 2nd board: CS1
 3rd board: CS2
 4th board: CS3</text>
-<text x="149.86" y="15.24" size="2.54" layer="91">TODO:</text>
+<text x="210.82" y="7.62" size="1.905" layer="91">CHANGES FROM X2:
+-CORRECTED P-CH FET ANODE DRIVERS
+-ADDED 7TH ANODE DRIVER FOR INTER-CHAR DOTS AND DASHES
+-ALL  BUT 2 LEDS WITHIN A CHARACTER ARE ADDREESSABLE</text>
+<text x="81.026" y="-20.828" size="2.54" layer="91" font="fixed" ratio="10">PER CHAR ANODE DRIVERS (MUX'D)</text>
+<text x="101.346" y="98.044" size="2.54" layer="91" font="fixed" ratio="10">SPI TO LED DRIVER</text>
+<text x="257.048" y="86.614" size="2.54" layer="91" font="fixed" ratio="10">EDGE CONNECTORS
+(DAISY CHAINABLE)</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$2" x="213.36" y="17.78"/>
+<instance part="FRAME1" gate="G$2" x="213.36" y="-15.24"/>
 <instance part="GND10" gate="1" x="73.66" y="149.86"/>
 <instance part="U2" gate="G$1" x="114.3" y="142.24" smashed="yes">
 <attribute name="NAME" x="104.902" y="168.148" size="1.778" layer="94"/>
